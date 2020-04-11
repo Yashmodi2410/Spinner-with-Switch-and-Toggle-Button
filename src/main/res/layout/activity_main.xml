@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/switch_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Radio Selection" />
+
+            <RadioGroup
+                android:id="@+id/rg_practice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/chk_cricket"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cricket"
+                    android:visibility="gone"/>
+
+                <CheckBox
+                    android:id="@+id/chk_volley"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Volleyball"
+                    android:visibility="gone"/>
+
+                <CheckBox
+                    android:id="@+id/chk_hockey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hockey"
+                    android:visibility="gone"/>
+
+                <CheckBox
+                    android:id="@+id/chk_football"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Football"
+                    android:visibility="gone"/>
+
+                <CheckBox
+                    android:id="@+id/chk_sing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Singing"
+                    android:visibility="gone"/>
+
+                <CheckBox
+                    android:id="@+id/chk_dance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dancing"
+                    android:visibility="gone"/>
+
+                <CheckBox
+                    android:id="@+id/chk_drawing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Drawing"
+                    android:visibility="gone"/>
+
+                <CheckBox
+                    android:id="@+id/chk_reading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Reading"
+                    android:visibility="gone"/>
+
+                <CheckBox
+                    android:id="@+id/chk_engineering"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Engineering"
+                    android:visibility="gone"/>
+
+                <CheckBox
+                    android:id="@+id/chk_doctor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Doctor"
+                    android:visibility="gone"/>
+
+                <CheckBox
+                    android:id="@+id/chk_artist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Artist"
+                    android:visibility="gone"/>
+
+                <CheckBox
+                    android:id="@+id/chk_sport"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sportsman"
+                    android:visibility="gone"/>
+
+                <RadioButton
+                    android:id="@+id/rb_games"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Games" />
+
+                <RadioButton
+                    android:id="@+id/rb_hobby"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hobby" />
+
+                <RadioButton
+                    android:id="@+id/rb_profession"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Profession" />
+
+            </RadioGroup>
+
+            <ToggleButton
+                android:id="@+id/togglebtn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Spinner Selection" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Country" />
+
+            <Spinner
+                android:id="@+id/spinner_country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></Spinner>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select State" />
+
+            <Spinner
+                android:id="@+id/spinner_state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></Spinner>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select City" />
+
+            <Spinner
+                android:id="@+id/spinner_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></Spinner>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Area" />
+
+            <Spinner
+                android:id="@+id/spinner_area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></Spinner>
+
+            <Button
+                android:id="@+id/btn_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Progress Dialog" />
+
+            <Button
+                android:id="@+id/btn_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Close App" />
+
+            <ProgressBar
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="100"
+                android:progress="30" />
+
+            <SeekBar
+                android:id="@+id/seekbar"
+                style="@style/Widget.AppCompat.SeekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="100"
+                android:progress="30"
+                android:tooltipText="Media" />
+
+            <RatingBar
+                android:id="@+id/rating"
+                style="@style/Widget.AppCompat.RatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btn_continue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="Continue" />
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
